@@ -39,6 +39,9 @@ p{
     color: white;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+}
 @media only screen and (max-width: 600px){
     p{
         font-size: 5vw;
