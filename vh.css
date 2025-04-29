@@ -1,0 +1,50 @@
+*{
+margin: 0;
+    padding: 0;
+
+}
+#info{
+    width: 100vw;
+    height: 100vh;
+    background-color: deepskyblue;
+}
+img{
+  
+    width: 5%;
+    margin-left: 47%;
+    margin-top: 45vh;
+}
+p{
+    font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}
+#tbl{
+    width: 50px;
+    padding: 5px;
+    background-color: white;
+    color: darkblue;
+    font-size: 20pt;
+    border-radius: 40px;
+    margin: auto;
+}
+#tbl:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    p{
+        font-size: 5vw;
+    }
+    img{
+        width: 20vw;
+        margin-left: 40vw;
+    }
+}
